@@ -1,0 +1,239 @@
+$mini_height: 100px;
+$mini_width: 80px;
+$medium_width: 260px;
+$medium_height: 165px;
+$big_width: 400px;
+$big_height: 280px;
+$large_width: 830px;
+
+.news-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  @include fonts-style ("Montserrat", normal, 16px, normal, 27px, white);
+  margin: 10px;
+  position: relative;
+
+  &_mini {
+    display: flex;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+    align-items: center;
+    max-width: 100%;
+
+    & .news-card {
+
+      &__content {
+        padding: 5px;
+        max-height: 95px;
+        overflow: hidden;
+        border: none;
+      }
+
+      &__preview,
+      &__preview-element {
+        width: $mini_height;
+        height: $mini_width;
+      }
+
+      &__preview-data {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+      }
+
+      &__preview-services {
+        top: 0;
+        bottom: auto;
+        margin: 10px 0;
+
+        & > :first-child {
+          margin: 0;
+        }
+      }
+
+      &__preview-link {
+        margin: 0;
+        @include fonts-style ("Montserrat", normal, 16px, normal, 27px, #3f51b5);
+      }
+
+      &__title {
+        @include fonts-style ("Montserrat", bold, 14px, normal, 150%, black);
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+  &_small {
+    display: flex;
+    flex-direction: column;
+    max-height: $medium_height + 240px;
+    max-width: $medium_width;
+
+    & .news-card {
+      &__content {
+        padding: 5px;
+        max-height: 160px;
+        overflow: hidden;
+      }
+
+      &__preview {
+        width: $medium_width;
+        height: $medium_height;
+      }
+
+      &__preview-element {
+        width: $medium_width;
+        height: $medium_height;
+      }
+
+      &__preview-data {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+
+  &_medium {
+    display: flex;
+    max-height: $medium_height;
+    max-width: $large_width;
+
+    & .news-card {
+      &__content {
+        padding: 5px;
+        max-height: 95px;
+        overflow: hidden;
+      }
+
+      &__preview {
+        width: $medium_width;
+        height: $medium_height;
+      }
+
+      &__preview-element {
+        width: $medium_width;
+        height: $medium_height;
+      }
+
+      &__preview-data {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+
+  &_big {
+    display: flex;
+    flex-direction: column;
+    max-height: $big_height + 240px;
+    max-width: $big_width;
+
+    & .news-card {
+      &__content {
+        padding: 5px;
+        max-height: 160px;
+        overflow: hidden;
+      }
+
+      &__preview {
+        width: $big_width;
+        height: $big_height;
+      }
+
+      &__preview-element {
+        width: $big_width;
+        height: $big_height;
+      }
+
+      &__preview-data {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+
+  &_large {
+    max-width: $large_width;
+
+    & .news-card {
+
+      &__preview-element {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  &__preview {
+    position: relative;
+    cursor: pointer;
+  }
+
+  &__preview-element {
+    object-fit: cover;
+  }
+
+  &__preview-data {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+
+    &_video {
+      background: url("../../../../images/main/news-card/play_circle_outline.svg") no-repeat center;
+      background-size: 10%;
+      z-index: 3;
+    }
+  }
+
+  &__preview-services,
+  &__preview-text {
+    position: absolute;
+    margin: 15px;
+    bottom: 0;
+  }
+
+  &__preview-text {
+    text-transform: uppercase;
+    left: 0;
+    padding: 0;
+  }
+
+  &__preview-services {
+    display: flex;
+    right: 0;
+
+    & > :first-child {
+      margin-right: 15px;
+    }
+  }
+
+  &__preview-link {
+    display: flex;
+    @include fonts-style ("Montserrat", normal, 16px, normal, 27px, white);
+
+    & > :first-child {
+      margin-right: 5px;
+    }
+  }
+
+  &__content {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  &__title {
+    @include fonts-style ("Montserrat", bold, 18px, normal, 29px, black);
+    margin-bottom: 5px;
+  }
+
+  &__text {
+    @include fonts-style ("Montserrat", normal, 16px, normal, 26px, black);
+  }
+
+  &__author {
+
+  }
+}

@@ -1,0 +1,43 @@
+.img-line {
+  background: url("../../../../images/footer/img-line/60.png");
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__title {
+    @include fonts-style ("Montserrat", bold, 42px, normal, 36px, white);
+    margin-right: 40px;
+  }
+
+  &__form {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  &__input {
+    border: 1px solid white;
+    border-radius: 100px;
+    width: 270px;
+    height: 45px;
+    background: black;
+    @include fonts-style ("OpenSans", normal, 16px, normal, 0, white);
+    opacity: 0.5;
+    padding: 0 20px;
+    margin-right: 40px;
+  }
+
+  &__btn {
+    background: #303f9f;
+    height: 45px;
+    color: white;
+    font-size: 24px;
+    border-radius: 50px;
+    border: none;
+    text-transform: uppercase;
+    padding: 0 40px;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,27 @@
+@import "./sorting/sorting";
+@import "./main-content/main-content";
+@import "./news/news";
+@import "./news-card/news-card";
+@import "./widget/widget";
+
+.main {
+  margin: 0 auto;
+  max-width: $max-width;
+
+  &__sorting {
+
+  }
+
+  &__m-content {
+
+  }
+
+  &__long-line {
+    width: 1000%;
+    left: -500%;
+    height: 1px;
+    background: #ddd;
+    position: absolute;
+    bottom: 0;
+  }
+}

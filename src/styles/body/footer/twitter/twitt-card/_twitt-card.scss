@@ -1,0 +1,35 @@
+.twitt-card {
+  border-bottom: 1px solid #3c3c3c;
+  padding: 10px 0;
+
+  &__content {
+    display: flex;
+    margin: 0 0 15px;
+  }
+
+  &__img {
+    height: 20px;
+    width: auto;
+  }
+
+  &__text {
+    @include fonts-style ("OpenSans", normal, 14px, normal, 100%, white);
+    opacity: 0.6;
+    margin-left: 20px;
+  }
+
+  &__data {
+    display: flex;
+  }
+
+  &__data-link,
+  &__data-text {
+    @include fonts-style ("OpenSans", normal, 12px, normal, 100%, white);
+    opacity: 0.4;
+    margin: 0 10px 0 0;
+  }
+
+  &__data-link {
+    text-decoration: underline;
+  }
+}

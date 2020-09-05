@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="shopping_cart.svg"
+   id="svg6"
+   version="1.1"
+   width="24"
+   viewBox="0 0 24 24"
+   height="24">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10">
+    <linearGradient
+       osb:paint="solid"
+       id="linearGradient861">
+      <stop
+         id="stop859"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     inkscape:current-layer="svg6"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:cy="13.116279"
+     inkscape:cx="11.08043"
+     inkscape:zoom="35.833333"
+     showgrid="false"
+     id="namedview8"
+     inkscape:window-height="1027"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <path
+     id="path2"
+     fill="none"
+     d="M0 0h24v24H0V0z" />
+  <path
+     id="path4"
+     d="M17 18c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zM7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm0-3l1.1-2h7.45c.75 0 1.41-.41 1.75-1.03L21.7 4H5.21l-.94-2H1v2h2l3.6 7.59L3.62 17H19v-2H7z" />
+  <path
+     d="M 1.0058594 2.0097656 L 1.0058594 3 L 1.0058594 3.9902344 L 2.0136719 3.9980469 L 3.0214844 4.0039062 L 4.8183594 7.7949219 L 6.6152344 11.583984 L 6.5703125 11.673828 C 6.5450433 11.723168 5.8781758 12.934007 5.0898438 14.365234 C 4.3015118 15.79646 3.65625 16.972769 3.65625 16.980469 C 3.65625 16.988219 7.105104 16.996094 11.318359 16.996094 L 18.978516 16.996094 L 18.978516 16.003906 L 18.978516 15.013672 L 12.978516 15.007812 L 6.9804688 15 L 7.5332031 13.996094 L 8.0859375 12.990234 L 12.017578 12.976562 C 15.752939 12.963302 15.957716 12.959336 16.103516 12.910156 C 16.29761 12.844687 16.543729 12.725095 16.697266 12.619141 C 16.823559 12.531987 17.086184 12.264609 17.183594 12.125 C 17.243104 12.039712 21.65625 4.053625 21.65625 4.03125 C 21.65625 4.024511 17.953458 4.0195312 13.427734 4.0195312 L 5.1992188 4.0195312 L 4.7285156 3.0136719 L 4.2578125 2.0097656 L 2.6328125 2.0097656 L 1.0058594 2.0097656 z M 7.0390625 18.025391 C 6.8766787 18.020279 6.7175296 18.030392 6.609375 18.054688 C 5.7291669 18.25242 5.0876791 18.997122 5.0332031 19.884766 C 4.9720133 20.881805 5.6900723 21.779901 6.6933594 21.962891 C 6.8755533 21.996121 7.2923988 21.975365 7.4941406 21.921875 C 7.8263949 21.833783 8.1161387 21.665042 8.3769531 21.40625 C 8.6439121 21.14136 8.7864029 20.913227 8.8984375 20.572266 C 8.9894335 20.295334 9.0014381 19.791881 8.9238281 19.507812 C 8.7343068 18.814128 8.1756549 18.259749 7.4882812 18.082031 C 7.3662911 18.050491 7.2014463 18.030502 7.0390625 18.025391 z M 16.996094 18.025391 C 16.264666 18.026778 15.609734 18.42079 15.265625 19.066406 C 14.915053 19.724146 14.951619 20.475195 15.365234 21.099609 C 15.653015 21.534059 16.109412 21.839659 16.634766 21.951172 C 16.880514 22.003332 17.290801 21.9831 17.541016 21.90625 C 18.973339 21.466361 19.453241 19.737622 18.443359 18.65625 C 18.2288 18.426503 17.974419 18.251771 17.705078 18.150391 C 17.438604 18.050086 17.2895 18.024835 16.996094 18.025391 z "
+     style="opacity:0.98;fill:#ffffff;stroke:#ffffff;stroke-width:0.027907;fill-opacity:1;stroke-opacity:1"
+     id="path842" />
+</svg>

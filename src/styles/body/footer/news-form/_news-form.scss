@@ -1,0 +1,38 @@
+.news-form {
+  display: flex;
+  flex-direction: column;
+
+  &__input {
+    @include fonts-style ("OpenSans", normal, 14px, normal, 100%, white);
+    opacity: 0.5;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0 15px;
+    background: inherit;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+
+    &_small {
+      height: 45px;
+    }
+
+    &_big {
+      height: 120px;
+      resize: none;
+      padding: 15px;
+    }
+
+  }
+
+  &__btn {
+    @include fonts-style ("Montserrat", normal, 18px, normal, 100%, white);
+    background: #303030;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 0;
+    box-sizing: border-box;
+    opacity: 1;
+    text-transform: uppercase;
+  }
+}

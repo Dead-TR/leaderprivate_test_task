@@ -1,0 +1,81 @@
+@import "./logo/logo";
+
+.navigation {
+  @include fonts-style ("Montserrat", bold, 24px, normal, 36px, white);
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  max-width: $max-width;
+  margin: 0 auto;
+  padding-top: 30px;
+
+  &__search {
+    position: relative;
+  }
+
+  &__search-preinput {
+    opacity: 0.5;
+
+    &::after {
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 100%;
+      width: 40px;
+      background: url("../../../../images/header/navigation/search.svg") no-repeat center;
+      background-size: 25px;
+    }
+  }
+
+  &__search-input {
+    opacity: 0.5;
+    @include fonts-style ("Montserrat", normal, 14px, normal, 100%, white);
+    background: inherit;
+    border: 1px solid white;
+    border-radius: 100px;
+    height: 35px;
+    padding: 20px 40px 20px 20px;
+    box-sizing: border-box;
+  }
+
+  &__logo {
+    font-size: 24px;
+  }
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    margin-left: 20px;
+
+    & a {
+      @include fonts-style ("Montserrat", bold, 14px, normal, 36px, white);
+      display: flex;
+    }
+  }
+
+  &__arrow {
+    transform: rotate(90deg);
+    margin: 0 10px;
+    @include fonts-style ("Nanum Gothic", normal, 13px, normal, auto, white);
+  }
+
+  &__services {
+    display: flex;
+    margin-right: 40px;
+  }
+
+  &__service-item {
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+    & img {
+      height: 100%;
+      width: auto;
+      margin: 0 10px;
+    }
+  }
+}

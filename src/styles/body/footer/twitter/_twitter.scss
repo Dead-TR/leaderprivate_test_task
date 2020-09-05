@@ -1,0 +1,21 @@
+@import "./twitt-card/twitt-card";
+
+.twitter {
+
+  &__block {
+    display: flex;
+    flex-direction: column;
+
+    & :last-child {
+      border: none;
+    }
+  }
+
+  &__item {
+
+  }
+
+  &__social {
+
+  }
+}

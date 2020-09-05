@@ -1,0 +1,21 @@
+@import "./roof/roof";
+@import "./slider/slider";
+@import "./navigation/navigation";
+
+.header {
+
+  &__roof {
+
+  }
+
+  &__slider {
+    height: 800px;
+    width: auto;
+    margin: 0 auto;
+  }
+
+  &__navigation {
+
+  }
+
+}

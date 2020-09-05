@@ -1,0 +1,38 @@
+.news {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+
+  &__item {
+
+  }
+
+  &__arrow {
+    @include fonts-style ("Montserrat", bold, 16px, normal, 36px, #303f9f);
+    position: absolute;
+    bottom: -80px;
+    right: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  &__arrow-text {
+    margin-right: 10px;
+  }
+
+  &__arrow-img {
+    border-radius: 50%;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+    width: 50px;
+    height: 50px;
+    background: white url("../../../../images/main/news/arrow_forward.svg") no-repeat center;
+    background-size: 25px;
+    cursor: pointer;
+    transition: transform 1s;
+
+    &:hover {
+      transform: translateX(15px);
+    }
+  }
+}

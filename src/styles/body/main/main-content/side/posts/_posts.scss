@@ -1,0 +1,39 @@
+$button_radius: 5px;
+$own_color: #3f51b5;
+
+.posts {
+
+  &__button {
+    height: 45px;
+    width: 50%;
+    box-sizing: border-box;
+    border: 1px solid $own_color;
+    @include fonts-style ("Montserrat", normal, 16px, normal, 30px, white);
+    background: $own_color;
+    text-transform: uppercase;
+
+    &_left {
+      border-top-left-radius: $button_radius;
+      border-bottom-left-radius: $button_radius;
+    }
+
+    &_right {
+      border-top-right-radius: $button_radius;
+      border-bottom-right-radius: $button_radius;
+    }
+
+    &_active {
+      color: $own_color;
+      background: white;
+    }
+  }
+
+  &__items {
+
+  }
+
+  &__item {
+
+  }
+
+}

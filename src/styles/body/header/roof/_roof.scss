@@ -1,0 +1,64 @@
+$roof_item_color: #707070;
+
+.roof {
+  background: #191919;
+  width: 100%;
+
+  &__social {
+
+  }
+
+  &__content {
+    max-width: $max-width;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__social-item :first-child {
+    height: 20px;
+    width: auto;
+    margin-right: 15px;
+  }
+
+  &__services {
+    color: $roof_item_color;
+    display: flex;
+  }
+
+  &__services-item {
+    margin: 0 20px;
+  }
+
+  &__s-link {
+    @include fonts-style ("Montserrat", normal, 16px, normal, 27px, $roof_item_color);
+    text-transform: uppercase;
+    display: flex;
+
+    &:visited,
+    &:active {
+      color: $roof_item_color;
+    }
+  }
+
+  &__s-img {
+    margin-right: 5px;
+  }
+
+  &__s-text {
+
+  }
+
+  &__s-arrow {
+    transform: rotate(90deg);
+    margin: 0 10px;
+    @include fonts-style ("Nanum Gothic", normal, 16px, normal, 27px, $roof_item_color);
+  }
+
+  &__line {
+    background: $roof_item_color;
+    height: 100%;
+    width: 1px;
+  }
+}

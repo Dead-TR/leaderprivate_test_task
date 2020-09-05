@@ -1,0 +1,30 @@
+$active_sort_element_color: #3f51b5;
+
+.sorting {
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+  text-transform: uppercase;
+  @include fonts-style ("Montserrat", normal, 16px, normal, 27px, black);
+
+  &__title {
+    font-weight: bold;
+    padding: 10px;
+    margin-right: 20px;
+  }
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    padding: 10px 35px;
+    border-radius: 50px;
+    margin-right: 20px;
+
+    &_active {
+      color: $active_sort_element_color;
+      border: 1px solid $active_sort_element_color;
+    }
+  }
+}

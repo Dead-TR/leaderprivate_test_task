@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="comment.svg"
+   id="svg6"
+   version="1.1"
+   width="24"
+   viewBox="0 0 24 24"
+   height="24">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg6"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:cy="12.324103"
+     inkscape:cx="12.933692"
+     inkscape:zoom="17.916667"
+     showgrid="false"
+     id="namedview8"
+     inkscape:window-height="1027"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <path
+     id="path2"
+     fill="none"
+     d="M0 0h24v24H0V0z" />
+  <path
+     id="path4"
+     d="M21.99 2H2v16h16l4 4-.01-20zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z" />
+  <path
+     id="path837"
+     d="M 19.995423,19.981469 18.014101,18 H 10.011702 2.0093023 V 10.004651 2.0093023 h 9.9734747 9.973475 l 0.0189,1.0953489 c 0.0104,0.6024418 0.01501,5.0920099 0.01025,9.9768178 l -0.0087,8.88147 z M 18,13.004651 V 12 H 12 6 v 1.004651 1.004651 h 6 6 z m 0,-3 V 8.9860465 H 12 6 v 1.0186045 1.018605 h 6 6 z M 18,7.0046512 V 6 H 12 6 v 1.0046512 1.0046511 h 6 6 z"
+     style="opacity:0.98;fill:#ffffff;stroke:#ffffff;stroke-width:0.027907;stroke-opacity:0.995984;fill-opacity:1" />
+</svg>

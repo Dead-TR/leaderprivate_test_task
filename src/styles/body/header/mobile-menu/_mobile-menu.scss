@@ -9,6 +9,7 @@
   &__options {
     margin-left: 20px;
     width: 18px;
+    cursor: pointer;
 
     &_rotate {
       & :first-child {
@@ -43,6 +44,7 @@
   &__bucket {
     display: flex;
     margin-right: 20px;
+    cursor: pointer;
   }
 
   &__bucket-num {

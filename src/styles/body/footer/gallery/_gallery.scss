@@ -4,6 +4,10 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
+
+    &_mini {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 
   &__item {

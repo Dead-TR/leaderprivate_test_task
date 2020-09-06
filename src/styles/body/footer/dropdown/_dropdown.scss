@@ -13,6 +13,7 @@
     border-bottom: 1px solid white;
     position: relative;
     padding: 15px;
+    cursor: pointer;
 
     &::after {
       content: "+";
@@ -50,5 +51,6 @@
     @include fonts-style ("OpenSans", normal, 14px, normal, 100%, white);
     opacity: 0.5;
     padding: 20px 15px;
+    cursor: pointer;
   }
 }

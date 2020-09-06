@@ -1,0 +1,20 @@
+.aftertext {
+
+  &__button,
+  &__about {
+    @include fonts-style ("Myriad Pro", normal, 14px, normal, 21px, white);
+    opacity: 0.5;
+  }
+
+  &__button {
+    min-height: 30px;
+    width: max-content;
+    box-sizing: border-box;
+    padding: 0 20px;
+    text-transform: uppercase;
+    border-radius: 100px;
+    border: none;
+    background: #3f3f3f;
+    margin-top: 20px;
+  }
+}

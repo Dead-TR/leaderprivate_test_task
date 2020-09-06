@@ -1,21 +1,41 @@
 @import "./roof/roof";
 @import "./slider/slider";
 @import "./navigation/navigation";
+@import "./mobile-menu/mobile-menu";
 
 .header {
+  position: relative;
 
-  &__roof {
-
+  &__mobile-menu {
+    display: none;
   }
 
   &__slider {
     height: 800px;
     width: auto;
     margin: 0 auto;
+    transition: transform 1s;
   }
+}
 
-  &__navigation {
+@media only screen and (max-width: 1050px) {
+  .header {
 
+    &__slider {
+      position: absolute;
+      z-index: 5;
+      top: 135px;
+      left: 0;
+      width: 100%;
+      transform: translateX(-100%);
+
+      &_active {
+        transform: translateX(0);
+      }
+    }
+
+    &__mobile-menu {
+      display: flex;
+    }
   }
-
 }

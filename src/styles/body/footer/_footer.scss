@@ -4,10 +4,16 @@
 @import "./twitter/twitter";
 @import "./news-form/news-form";
 @import "./basement/basement";
+@import "./aftertext/aftertext";
+@import "./categories/categories";
 
 .footer {
   background: #212121;
-  padding-bottom: 80px;
+  padding: 0 10px 80px;
+
+  &__mobile-content {
+    display: none;
+  }
 
   &__content {
     display: flex;
@@ -25,10 +31,53 @@
   &__title {
     @include fonts-style ("Montserrat", bold, 18px, normal, 100%, white);
     text-transform: uppercase;
-    margin: 50px 0 30px;
+    margin: 50px 0 15px;
 
     &_minor {
       margin: 20px 0;
+    }
+  }
+
+  &__tags {
+    opacity: 0.5;
+  }
+
+  &__tag {
+    @include fonts-style ("OpenSans", normal, 14px, normal, auto, white);
+    padding: 10px 20px;
+    background: inherit;
+    width: min-content;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    margin: 5px;
+  }
+
+  &__box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .footer {
+    padding: 0 10px;
+
+    &__content,
+    &__img-line {
+      display: none;
+    }
+
+    &__mobile-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 45px 0;
+    }
+
+    &__card {
+      max-width: 300px;
+      width: 100%;
     }
   }
 }

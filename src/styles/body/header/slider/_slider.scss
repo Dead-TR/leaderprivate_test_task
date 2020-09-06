@@ -43,7 +43,6 @@
     &_active-3 {
       left: -3840px;
     }
-
   }
 
   &__arrow {
@@ -71,10 +70,29 @@
     align-items: center;
     color: white;
   }
+}
 
-  &__text-content {
+@media only screen and (max-width: 1050px) {
+  .slider {
 
+    &__author,
+    &__text-content {
+      display: none;
+    }
   }
+}
 
-  &__author {}
+@media only screen and (max-width: 500px) {
+  .slider {
+
+    &__arrow,
+    &__container {
+      display: none;
+    }
+
+    &__gray {
+      background: #3f51b5;
+      max-height: 500px;
+    }
+  }
 }

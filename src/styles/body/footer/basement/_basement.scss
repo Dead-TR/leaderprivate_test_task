@@ -1,4 +1,44 @@
 .basement {
   background: #303030;
   height: 80px;
+
+  &__content {
+    display: none;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  &__politice {
+    @include fonts-style ("Montserrat", normal, 14px, normal, 27px, white);
+    opacity: 0.5;
+    margin-top: 40px;
+  }
+
+  &__social {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__social-item {
+
+    & :first-child {
+      height: 15px;
+      width: auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .basement {
+    padding: 30px 0 0;
+    height: 140px;
+
+    &__nav {
+      display: none;
+    }
+
+    &__content {
+      display: block;
+    }
+  }
 }

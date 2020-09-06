@@ -17,14 +17,73 @@ $active_sort_element_color: #3f51b5;
     display: flex;
   }
 
+  &__mobile {
+    display: none;
+    width: 100%;
+    justify-content: center;
+  }
+
+  &__wrapper {
+    position: relative;
+
+    &:after {
+      content: "▲\0a▼";
+      white-space: pre;
+      position: absolute;
+      z-index: 0;
+      top: 0;
+      right: 0;
+      box-sizing: border-box;
+      height: 100%;
+      width: 45px;
+      border: 1px solid gray;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      background: #eee;
+      color: gray;
+      line-height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  &__select {
+    height: 45px;
+    width: 280px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    appearance: none;
+    box-sizing: border-box;
+    padding: 0 20px;
+    @include fonts-style ("Myriad Pro", normal, 16px, normal, 100%, black);
+  }
+
   &__item {
     padding: 10px 35px;
     border-radius: 50px;
     margin-right: 20px;
+    cursor: pointer;
 
     &_active {
       color: $active_sort_element_color;
       border: 1px solid $active_sort_element_color;
+    }
+  }
+}
+
+@media only screen and (max-width: 985px) {
+  .sorting {
+    &__title {
+      display: none;
+    }
+
+    &__list {
+      display: none;
+    }
+
+    &__mobile {
+      display: flex;
     }
   }
 }

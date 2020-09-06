@@ -4,10 +4,6 @@ $roof_item_color: #707070;
   background: #191919;
   width: 100%;
 
-  &__social {
-
-  }
-
   &__content {
     max-width: $max-width;
     margin: 0 auto;
@@ -35,19 +31,14 @@ $roof_item_color: #707070;
     @include fonts-style ("Montserrat", normal, 16px, normal, 27px, $roof_item_color);
     text-transform: uppercase;
     display: flex;
-
-    &:visited,
-    &:active {
-      color: $roof_item_color;
-    }
   }
 
   &__s-img {
     margin-right: 5px;
-  }
 
-  &__s-text {
-
+    &_mobile {
+      display: none;
+    }
   }
 
   &__s-arrow {
@@ -60,5 +51,42 @@ $roof_item_color: #707070;
     background: $roof_item_color;
     height: 100%;
     width: 1px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .roof {
+    background: #303f9f;
+
+    &__content {
+      opacity: 0.6;
+    }
+
+    &__s-arrow,
+    &__s-link {
+      color: white;
+    }
+
+    &__services {
+      flex-direction: row-reverse;
+      width: 100%;
+      justify-content: space-around;
+    }
+
+    &__s-img {
+      &_desktop {
+        display: none;
+      }
+
+      &_mobile {
+        display: block;
+      }
+    }
+
+    &__line,
+    &__social {
+      display: none;
+    }
+
   }
 }

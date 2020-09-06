@@ -4,8 +4,12 @@
   justify-content: center;
   position: relative;
 
-  &__item {
+  &_mobile {
+    display: none;
+  }
 
+  &__item {
+    box-shadow: 0 8px 15px -9px rgba(0,0,0,0.5);
   }
 
   &__arrow {
@@ -23,7 +27,7 @@
 
   &__arrow-img {
     border-radius: 50%;
-    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
     width: 50px;
     height: 50px;
     background: white url("../../../../images/main/news/arrow_forward.svg") no-repeat center;
@@ -33,6 +37,31 @@
 
     &:hover {
       transform: translateX(15px);
+    }
+  }
+
+  &__slot {
+    display: grid;
+
+    &_three {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    &_two {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+@media only screen and (max-width:830px) {
+  .news {
+
+    &_desktop {
+      display: none;
+    }
+
+    &_mobile {
+      display: grid;
     }
   }
 }

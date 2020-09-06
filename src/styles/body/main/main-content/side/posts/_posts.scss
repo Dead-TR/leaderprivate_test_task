@@ -4,7 +4,7 @@ $own_color: #3f51b5;
 .posts {
 
   &__button {
-    height: 45px;
+    min-height: 45px;
     width: 50%;
     box-sizing: border-box;
     border: 1px solid $own_color;
@@ -27,13 +27,4 @@ $own_color: #3f51b5;
       background: white;
     }
   }
-
-  &__items {
-
-  }
-
-  &__item {
-
-  }
-
 }

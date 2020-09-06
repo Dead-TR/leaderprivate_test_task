@@ -1,5 +1,3 @@
-@import "./logo/logo";
-
 .navigation {
   @include fonts-style ("Montserrat", bold, 24px, normal, 36px, white);
   display: flex;
@@ -76,6 +74,35 @@
       height: 100%;
       width: auto;
       margin: 0 10px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .navigation {
+
+    &__logo {
+      display: none;
+    }
+
+    &__arrow,
+    &__services {
+      display: none;
+    }
+
+    &__list {
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+      align-items: center;
+    }
+
+    &__item {
+      margin-left: 0;
+
+      & a {
+        @include fonts-style ("Montserrat", bold, 20px, normal, 50px, white);
+      }
     }
   }
 }

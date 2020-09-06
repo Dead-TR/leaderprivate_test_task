@@ -8,14 +8,6 @@
   margin: 0 auto;
   max-width: $max-width;
 
-  &__sorting {
-
-  }
-
-  &__m-content {
-
-  }
-
   &__long-line {
     width: 1000%;
     left: -500%;
@@ -23,5 +15,14 @@
     background: #ddd;
     position: absolute;
     bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .main {
+
+    &__widget {
+      display: none;
+    }
   }
 }
